@@ -80,7 +80,7 @@ class _MainPageState extends State<MainPage> {
                   child: Padding(
                     padding: const EdgeInsets.only(top: 18.0),
                     child: Text(
-                      '0',
+                      state.currentScore.toString(),
                       style: TextStyle(color: Colors.black, fontSize: 38),
                     ),
                   ),
