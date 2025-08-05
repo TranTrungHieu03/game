@@ -13,7 +13,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.1'  # Chỉ định version mới để tránh lỗi flag
+          flutter-version: '3.32.8'  # Chỉ định version mới để tránh lỗi flag
           channel: 'stable'
 
       - name: Install dependencies
